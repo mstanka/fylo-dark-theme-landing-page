@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AICA,OAAO,CAAC,iFAAI;AAQZ,OAAO,CAAC,4FAAI;ADTZ,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACR,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACpB;;AEND,AAAA,IAAI,CAAC;EACH,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,KAAK;EAAG,wCAAwC;CAC5D;;AAED,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,uBAAuB;EACpC,KAAK,EJEC,KAAgB;CIDvB;;AAED,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CACf;;AAED,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,OAAO;EACf,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,EAAE,CAAC;EACD,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ;;AM5BD,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CAKnB;;AAPD,AAIE,YAJU,CAIV,CAAC,CAAC;EACA,KAAK,EAAE,OAAkB;CAC1B",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/abstracts/_variables.scss",
+        "../../scss/abstracts/_mixin.scss",
+        "../../scss/base/_reset.scss",
+        "../../scss/base/_typography.scss",
+        "../../scss/base/_utilities.scss",
+        "../../scss/layout/_header.scss",
+        "../../scss/layout/_section1-features.scss",
+        "../../scss/layout/_section2-motivation.scss",
+        "../../scss/layout/_section3-testimonial.scss",
+        "../../scss/layout/_section4-signup.scss",
+        "../../scss/layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
