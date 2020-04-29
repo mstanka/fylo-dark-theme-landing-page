@@ -21,6 +21,7 @@ body {
   font-size: 1.4rem;
   font-family: "Open Sans", sans-serif;
   color: white;
+  line-height: 1.6;
 }
 
 .container {
@@ -77,6 +78,71 @@ header .nav .nav__list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.intro {
+  background: #1c2431;
+  color: white;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.intro .intro__img {
+  max-width: 55rem;
+  width: 90%;
+}
+
+.intro .intro__text {
+  max-width: 50rem;
+  padding: 2rem 1.7rem;
+}
+
+.intro .intro__text h1 {
+  letter-spacing: .05em;
+  padding-bottom: 2rem;
+}
+
+.intro .intro__text p {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.intro .intro__text .intro__btn {
+  padding: 1.5rem 8rem;
+  border-radius: 2.5rem;
+  border: #65e2d9;
+  background: -webkit-gradient(linear, right top, left bottom, from(#339ecc), to(#65e2d9));
+  background: linear-gradient(to bottom left, #339ecc, #65e2d9);
+  color: white;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.intro .intro__text .intro__btn:hover {
+  -webkit-filter: saturate(200%);
+          filter: saturate(200%);
+}
+
+.intro .intro__text .intro__btn:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .attribution {

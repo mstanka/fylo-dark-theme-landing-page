@@ -1,0 +1,51 @@
+.intro {
+  background: $dark-blue;
+  color: $white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .intro__img {
+    max-width: 55rem;
+    width: 90%;
+  }
+
+  .intro__text {
+    max-width: 50rem;
+    padding: 2rem 1.7rem;    
+
+    h1 {
+      letter-spacing: .05em;
+      padding-bottom: 2rem;
+    }
+
+    p {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding-bottom: 4rem;
+    }
+
+    .intro__btn {
+      padding: 1.5rem 8rem;
+      border-radius: 2.5rem;
+      border: $cyan;
+      background: linear-gradient(to bottom left, $blue, $cyan);
+      color: $white;
+      font-weight: 700;
+      outline: none;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        filter: saturate(200%);       
+      }
+
+      &:active {
+        transform: scale(.95);
+      }
+    }
+  }
+}
