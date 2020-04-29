@@ -50,6 +50,8 @@ header {
 }
 
 header .nav {
+  max-width: 144rem;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +61,7 @@ header .nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem;
+  padding: 4rem 3rem;
 }
 
 header .nav .nav__logo {
@@ -67,7 +69,7 @@ header .nav .nav__logo {
 }
 
 header .nav .nav__list {
-  max-width: 200px;
+  max-width: 170px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,42 +85,61 @@ header .nav .nav__list {
 .intro {
   background: #1c2431;
   color: white;
-  padding: 2rem;
+  padding: 3rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-align: center;
+  background-image: url(../img/bg-curvy-mobile.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding: 12rem 2rem;
+    background-image: url(../img/bg-curvy-desktop.svg);
+  }
 }
 
 .intro .intro__img {
-  max-width: 55rem;
+  max-width: 75rem;
   width: 90%;
 }
 
 .intro .intro__text {
-  max-width: 50rem;
-  padding: 2rem 1.7rem;
+  max-width: 65rem;
+  padding: 2rem 0;
 }
 
 .intro .intro__text h1 {
+  font-size: 2.4rem;
   letter-spacing: .05em;
   padding-bottom: 2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .intro .intro__text h1 {
+    font-size: 2.8rem;
+  }
+}
+
 .intro .intro__text p {
-  max-width: 40rem;
+  font-size: 1.5rem;
+  max-width: 50rem;
   margin: 0 auto;
-  padding-bottom: 4rem;
+  padding: 0 1rem 4rem 1rem;
 }
 
 .intro .intro__text .intro__btn {
@@ -143,6 +164,79 @@ header .nav .nav__list {
 .intro .intro__text .intro__btn:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+.features {
+  background: #181f2a;
+  padding: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .features .features__container {
+    max-width: 80rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -webkit-column-gap: 10rem;
+            column-gap: 10rem;
+  }
+}
+
+.features .features__item {
+  max-width: 36rem;
+  padding: 5rem 1rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .features .features__item {
+    padding: 5rem 0;
+  }
+}
+
+.features .features__item .features__img {
+  max-width: 8rem;
+  max-height: 10rem;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.features .features__item img {
+  width: auto;
+  height: 100%;
+}
+
+.features .features__item h2 {
+  padding-bottom: 1rem;
 }
 
 .attribution {

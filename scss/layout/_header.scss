@@ -4,17 +4,19 @@ header {
   font-family: $font-secondary;
 
   .nav {
+    max-width: $max-width;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem 3rem;
 
     .nav__logo {
       max-width: 10rem;
     }
 
     .nav__list {
-      max-width: 200px;
+      max-width: 170px;
       width: 100%;
       display: flex;
       justify-content: space-between;

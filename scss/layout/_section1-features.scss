@@ -1,0 +1,43 @@
+.features {
+  background: $dark-blue-main;  
+  padding: 4rem 0;
+  @include flexCenter(column);
+
+  .features__container {
+
+    @include media-md {
+      max-width: 80rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      column-gap: 10rem;
+    }
+  }
+
+  .features__item {
+    max-width: 36rem;
+    padding: 5rem 1rem;
+    text-align: center;
+    @include flexCenter(column);
+
+    @include media-lg {
+      padding: 5rem 0;
+    }
+
+    .features__img {
+      max-width: 8rem; 
+      max-height: 10rem;
+      width: 100%;
+      padding-bottom: 2rem;  
+    }
+
+    img {      
+      width: auto;
+      height: 100%;
+    }
+
+    h2 {
+      padding-bottom: 1rem;
+    }
+  } 
+}
