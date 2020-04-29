@@ -1,6 +1,120 @@
+.footer {
+  background: $dark-blue-footer;
+  padding-top: 35rem;
+
+  .footer__container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    @include media-md {
+      max-width: $max-width;
+      grid-template-columns: 2fr 1.2fr .5fr .5fr .9fr;
+      grid-template-rows: .5fr 2fr;
+      align-items: start;
+    }
+
+    .footer__logo {
+      max-width: 18rem;
+      padding-bottom: 2rem;
+
+      @include media-md {
+        grid-area: 1 / 1 / 2 / 2;
+      }
+    }
+
+    .footer__location {
+      max-width: 30rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      @include media-md {
+        grid-area: 2 / 1 / 3 / 2;
+      }
+
+      img {        
+        width: 1.2rem; 
+        vertical-align: middle;         
+      }  
+      
+      p {
+        padding-left: 1.5rem;
+      }
+    }
+    
+    .footer__contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      @include media-md {
+        grid-area: 2 / 2 / 3 / 3;    
+      }
+
+      img {
+        width: 1.2rem;        
+      }
+
+      span {
+        padding-left: 1.5rem;
+      }
+
+      & > div {
+        padding-bottom: 1rem;
+      }
+    }
+
+    .footer__navlist {
+      padding: 2rem 0;
+
+      @include media-md {
+        padding: 0;        
+      }
+
+      li {
+        padding-bottom: 1rem;
+        cursor: pointer;        
+      }
+    }
+
+    .foot-nav1 {
+      @include media-md {
+        grid-area: 2 / 3 / 3 / 4;
+      }
+    }
+
+    .foot-nav2 {
+      @include media-md {
+        grid-area: 2 / 4 / 3 / 5;
+      }
+    }
+
+    .footer__social {
+      text-align: center;
+
+      @include media-md {
+        grid-area: 2 / 5 / 3 / 6;
+      }
+
+      .fab {
+        border: 1px solid $white;
+        border-radius: 50%;
+        padding: .5rem;
+        margin: 0 .5rem;
+      }      
+    }
+  }
+}
+
 .attribution { 
-  font-size: 11px; 
+  font-size: 1.1rem; 
   text-align: center; 
+  color: $dark-blue-footer;
 
   a { 
     color: hsl(228, 45%, 44%); 
