@@ -1,0 +1,40 @@
+.motivation {
+  background: $dark-blue-main;  
+  padding: 6rem 0;
+  @include flexCenter(column);
+
+  @include media-lg {
+    flex-direction: row;
+  }
+
+  .motivation__img {
+    max-width: 34rem;
+    margin: 0 auto;  
+
+    @include media-md {
+      max-width: 75rem;
+    }
+  }
+
+  .motivation__text {
+    max-width: 65rem;
+    padding: 2rem; 
+
+    p {
+      padding: 1.5rem 0;    
+    }
+
+    .motivation__text-arrow {
+      color: $cyan;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid $cyan;
+
+       img {
+        display: inline-block;
+        width: 1.5rem;   
+        height: 1.5rem;
+        vertical-align: middle;
+      }
+    }
+  }
+}
