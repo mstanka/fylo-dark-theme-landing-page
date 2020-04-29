@@ -1,0 +1,24 @@
+header {
+  background: $dark-blue;
+  color: $white;
+  font-family: $font-secondary;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    .nav__logo {
+      max-width: 10rem;
+    }
+
+    .nav__list {
+      max-width: 200px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

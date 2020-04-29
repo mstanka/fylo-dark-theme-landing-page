@@ -19,7 +19,7 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: white;
 }
 
@@ -31,6 +31,7 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: white;
 }
 
 li {
@@ -39,6 +40,43 @@ li {
 
 img {
   width: 100%;
+}
+
+header {
+  background: #1c2431;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+header .nav .nav__logo {
+  max-width: 10rem;
+}
+
+header .nav .nav__list {
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .attribution {
