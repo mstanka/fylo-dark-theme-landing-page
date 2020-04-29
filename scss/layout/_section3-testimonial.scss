@@ -18,13 +18,14 @@
   .testimonials__quotes {
     position: absolute;
     top: -2rem;
-    left: 3rem;      
+    left: 1.5rem;      
   }
 
   .testimonials__item {
     max-width: 35rem;
     background: $dark-blue-testimonials;
-    margin: 1.5rem;
+    border-radius: .5rem;
+    margin: 1.3rem;
     position: relative;
     z-index: 10; 
 

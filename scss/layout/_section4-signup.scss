@@ -1,0 +1,71 @@
+.signup {
+  background: $dark-blue-main;
+  @include flexCenter(column);
+  padding-top: 10rem;
+  position: relative;
+  
+  .signup__container {
+    background: $dark-blue;    
+    max-width: 33rem;
+    margin: 0 auto;    
+    text-align: center;    
+    border-radius: .5rem;
+    padding: 3rem 5rem;
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+    top: 20%; 
+
+    @include media-md {
+      max-width: 80rem;
+    }
+
+    h2, p {
+      padding-bottom: 1.5rem;
+    }
+  }
+
+.signup__inputs {
+  @include flexCenter(column);
+  align-items: stretch;
+
+  @include media-md {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+  .signup__email {
+    padding: 1.3rem 2rem;
+    border-radius: 2.5rem;
+    outline: none;
+    width: 100%;    
+    margin-bottom: 1rem;
+
+    @include media-md {
+      max-width: 45rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .signup__btn {
+    padding: 1.5rem 3rem;
+    border-radius: 2.5rem;
+    border: $cyan;
+    background: linear-gradient(to bottom left, $blue, $cyan);
+    color: $white;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    //margin-right: 1.5rem;
+
+    &:hover {
+      filter: saturate(200%);       
+    }
+
+    &:active {
+      transform: scale(.95);
+    }
+  } 
+}
