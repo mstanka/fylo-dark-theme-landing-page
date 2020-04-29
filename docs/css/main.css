@@ -299,6 +299,87 @@ header .nav .nav__list {
   vertical-align: middle;
 }
 
+.testimonials {
+  background: #181f2a;
+  padding: 10rem 0;
+}
+
+.testimonials .testimonials__container {
+  position: relative;
+  max-width: 40rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonials .testimonials__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 124rem;
+  }
+}
+
+.testimonials .testimonials__quotes {
+  position: absolute;
+  top: -2rem;
+  left: 3rem;
+}
+
+.testimonials .testimonials__item {
+  max-width: 35rem;
+  background: #202a3c;
+  margin: 1.5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.testimonials .testimonials__item .testimonials__item-wrapper {
+  padding: 2rem 1.8rem;
+}
+
+.testimonials .testimonials__item .testimonials__item-wrapper .testimonials__profile {
+  padding-top: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.testimonials .testimonials__item .testimonials__item-wrapper .testimonials__profile img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  vertical-align: middle;
+}
+
+.testimonials .testimonials__item .testimonials__item-wrapper .testimonials__profile h3, .testimonials .testimonials__item .testimonials__item-wrapper .testimonials__profile p {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
