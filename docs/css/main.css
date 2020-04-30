@@ -33,6 +33,12 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: white;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+a:hover {
+  color: #65e2d9;
 }
 
 li {
@@ -146,7 +152,7 @@ header .nav .nav__list {
 
 @media screen and (min-width: 1024px) {
   .intro .intro__text h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
 }
 
@@ -319,6 +325,10 @@ header .nav .nav__list {
   width: 1.5rem;
   height: 1.5rem;
   vertical-align: middle;
+}
+
+.motivation .motivation__text .motivation__text-arrow img:hover {
+  cursor: pointer;
 }
 
 .testimonials {
@@ -521,6 +531,10 @@ header .nav .nav__list {
 .signup .signup__btn:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+.signup .signup__btn a:hover {
+  color: white;
 }
 
 .footer {

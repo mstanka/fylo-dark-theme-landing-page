@@ -20,6 +20,11 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: $white;
+  transition: all .5s ease;
+}
+
+a:hover {
+  color: $cyan;
 }
 
 li {

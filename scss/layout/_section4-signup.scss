@@ -67,11 +67,15 @@
     transition: all .3s ease-in-out;
     
     &:hover {
-      filter: saturate(200%);       
+      filter: saturate(200%); 
     }
 
     &:active {
       transform: scale(.95);
+    }
+
+    a:hover {
+      color: $white;
     }
   } 
 }
