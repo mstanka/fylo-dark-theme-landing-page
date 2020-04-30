@@ -2,6 +2,8 @@ header {
   background: $dark-blue;
   color: $white;
   font-family: $font-secondary;
+  max-width: $max-width;
+  margin: 0 auto;
 
   .nav {
     max-width: $max-width;
@@ -9,14 +11,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 3rem;
+    padding: 4rem 5rem;
 
     .nav__logo {
-      max-width: 10rem;
+      max-width: 18rem;
     }
 
     .nav__list {
-      max-width: 170px;
+      max-width: 210px;
       width: 100%;
       display: flex;
       justify-content: space-between;

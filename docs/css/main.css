@@ -55,6 +55,8 @@ header {
   background: #1c2431;
   color: white;
   font-family: "Raleway", sans-serif;
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 header .nav {
@@ -69,15 +71,15 @@ header .nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 4rem 3rem;
+  padding: 4rem 5rem;
 }
 
 header .nav .nav__logo {
-  max-width: 10rem;
+  max-width: 18rem;
 }
 
 header .nav .nav__list {
-  max-width: 170px;
+  max-width: 210px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,7 +507,9 @@ header .nav .nav__list {
 
 .footer {
   background: #0b1523;
-  padding-top: 35rem;
+  padding-top: 20rem;
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 .footer .footer__container {
@@ -522,8 +526,9 @@ header .nav .nav__list {
 @media screen and (min-width: 768px) {
   .footer .footer__container {
     max-width: 144rem;
-    -ms-grid-columns: 2fr 1.2fr .5fr .5fr .9fr;
-        grid-template-columns: 2fr 1.2fr .5fr .5fr .9fr;
+    padding: 0 10rem;
+    -ms-grid-columns: 1.8fr 1.2fr .5fr .5fr .9fr;
+        grid-template-columns: 1.8fr 1.2fr .5fr .5fr .9fr;
     -ms-grid-rows: .5fr 2fr;
         grid-template-rows: .5fr 2fr;
     -webkit-box-align: start;
