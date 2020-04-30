@@ -83,15 +83,27 @@ header .nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 6rem 5rem;
+  padding: 6rem 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  header .nav {
+    padding: 6rem 5rem;
+  }
 }
 
 header .nav .nav__logo {
-  max-width: 18rem;
+  max-width: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+  header .nav .nav__logo {
+    max-width: 18rem;
+  }
 }
 
 header .nav .nav__list {
-  max-width: 210px;
+  max-width: 18rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,6 +114,12 @@ header .nav .nav__list {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  header .nav .nav__list {
+    max-width: 22rem;
+  }
 }
 
 .intro {

@@ -11,18 +11,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 5rem;
+    padding: 6rem 2rem;
+    
+    @include media-md {
+      padding: 6rem 5rem;
+    }   
 
     .nav__logo {
-      max-width: 18rem;
+      max-width: 10rem;
+
+      @include media-md {
+        max-width: 18rem;
+      }
     }
 
     .nav__list {
-      max-width: 210px;
+      max-width: 18rem;
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
+      @include media-md {
+        max-width: 22rem;
+      }
     }
   }
 }
