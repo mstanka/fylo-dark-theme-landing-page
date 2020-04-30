@@ -146,7 +146,7 @@ header .nav .nav__list {
 }
 
 .intro .intro__text h1 {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   padding-bottom: 2rem;
 }
 
@@ -333,7 +333,7 @@ header .nav .nav__list {
 
 .testimonials {
   background: #181f2a;
-  padding: 10rem 0;
+  padding: 10rem 0 20rem 0;
 }
 
 .testimonials .testimonials__container {
