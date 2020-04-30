@@ -24,8 +24,7 @@
     padding: 2rem 0;    
 
     h1 {
-      font-size: 2.4rem;
-      letter-spacing: .05em;
+      font-size: 2.6rem;
       padding-bottom: 2rem;
 
       @include media-lg {
@@ -47,6 +46,7 @@
       background: linear-gradient(to bottom left, $blue, $cyan);
       color: $white;
       font-weight: 700;
+      font-family: $font-secondary;
       outline: none;
       cursor: pointer;
       transition: all .3s ease-in-out;

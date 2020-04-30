@@ -26,15 +26,15 @@
     }
   }
 
-.signup__form {
-  @include flexCenter(column);
-  align-items: stretch;
+  .signup__form {
+    @include flexCenter(column);
+    align-items: stretch;
 
-  @include media-md {
-    flex-direction: row;
-    justify-content: space-around;
+    @include media-md {
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
-}
 
   .signup__email {
     padding: 1.3rem 2rem;
@@ -57,6 +57,7 @@
     background: linear-gradient(to bottom left, $blue, $cyan);
     color: $white;
     font-weight: 700;
+    font-family: $font-secondary;
     outline: none;
     cursor: pointer;
     transition: all .3s ease-in-out;
