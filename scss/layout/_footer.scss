@@ -14,10 +14,14 @@
 
     @include media-md {
       max-width: $max-width;
-      padding: 0 10rem;
+      padding: 0 5rem;
       grid-template-columns: 1.8fr 1.2fr .5fr .5fr .9fr;
       grid-template-rows: .5fr 2fr;
       align-items: start;
+    }
+
+    @include media-lg {
+      padding: 0 10rem;
     }
 
     .footer__logo {

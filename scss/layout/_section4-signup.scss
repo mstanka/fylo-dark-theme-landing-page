@@ -1,7 +1,7 @@
 .signup {
   background: $dark-blue-main;
   @include flexCenter(column);
-  padding-top: 10rem;
+  padding-top: 16rem;
   position: relative;
   
   .signup__container {
@@ -17,6 +17,10 @@
     top: 0; 
 
     @include media-md {
+      max-width: 70rem;
+    }
+
+    @include media-lg {
       max-width: 80rem;
       padding: 3rem 5rem;
     }
@@ -45,7 +49,7 @@
     margin-bottom: 1rem;
 
     @include media-md {
-      max-width: 45rem;
+      max-width: 40rem;
       margin-bottom: 0;
     }
   }
