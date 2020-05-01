@@ -30,21 +30,20 @@
       padding: 1.5rem 0;    
     }
 
-    .motivation__text-arrow {
-      color: $cyan;
+    .motivation__text-arrow {      
       padding-bottom: 1rem;
       border-bottom: 1px solid $cyan;
+
+      a {
+        color: $cyan;
+      }
 
       img {
         display: inline-block;
         width: 1.5rem;   
         height: 1.5rem;
         vertical-align: middle;
-      }
-
-      img:hover {
-        cursor: pointer;
-      }
+      }   
     }
   }
 }

@@ -339,9 +339,12 @@ header .nav .nav__list {
 }
 
 .motivation .motivation__text .motivation__text-arrow {
-  color: #65e2d9;
   padding-bottom: 1rem;
   border-bottom: 1px solid #65e2d9;
+}
+
+.motivation .motivation__text .motivation__text-arrow a {
+  color: #65e2d9;
 }
 
 .motivation .motivation__text .motivation__text-arrow img {
@@ -349,10 +352,6 @@ header .nav .nav__list {
   width: 1.5rem;
   height: 1.5rem;
   vertical-align: middle;
-}
-
-.motivation .motivation__text .motivation__text-arrow img:hover {
-  cursor: pointer;
 }
 
 .testimonials {
