@@ -59,7 +59,13 @@ h2 {
 
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 2.6rem;
   }
 }
 
@@ -170,7 +176,7 @@ header .nav .nav__list {
 
 @media screen and (min-width: 1024px) {
   .intro .intro__text h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 }
 
