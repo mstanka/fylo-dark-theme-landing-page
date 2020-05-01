@@ -351,7 +351,13 @@ header .nav .nav__list {
 
 .testimonials {
   background: #181f2a;
-  padding: 10rem 0 20rem 0;
+  padding: 10rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials {
+    padding: 18rem 0;
+  }
 }
 
 .testimonials .testimonials__container {

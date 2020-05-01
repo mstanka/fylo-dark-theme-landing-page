@@ -1,6 +1,10 @@
 .testimonials {
   background: $dark-blue-main;  
-  padding: 10rem 0 20rem 0;
+  padding: 10rem 0;
+
+  @include media-md {
+    padding: 18rem 0;
+  }
 
   .testimonials__container {
     position: relative;
