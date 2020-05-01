@@ -1,9 +1,7 @@
 .signup {
   background: $dark-blue-main;
   @include flexCenter(column);
-  padding-top: 16rem;
-  position: relative;
-  
+    
   .signup__container {
     background: $dark-blue;    
     max-width: 33rem;
@@ -11,10 +9,10 @@
     text-align: center;    
     border-radius: .5rem;
     padding: 3rem;
-    position: absolute;
+    position: relative;
     overflow: auto;
     z-index: 1;
-    top: 0; 
+    top: 10rem; 
 
     @include media-md {
       max-width: 70rem;

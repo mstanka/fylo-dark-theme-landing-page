@@ -458,8 +458,6 @@ header .nav .nav__list {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 16rem;
-  position: relative;
 }
 
 .signup .signup__container {
@@ -469,10 +467,10 @@ header .nav .nav__list {
   text-align: center;
   border-radius: .5rem;
   padding: 3rem;
-  position: absolute;
+  position: relative;
   overflow: auto;
   z-index: 1;
-  top: 0;
+  top: 10rem;
 }
 
 @media screen and (min-width: 768px) {
